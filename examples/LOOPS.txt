@@ -1,0 +1,15 @@
+do k=START,END,STEP       !repeat OPERATIONS for each k in sequence k=start, start+step,...start+n*step<=end
+    OPERATIONS
+end do
+
+do while (CONDITION)      !repeat OPERATIONS while CONDITION is true (read this in english)
+    OPERATIONS
+end do
+
+
+do i=1,10
+    do j=1,20
+        exit        !quit set of nested loops
+        cicle       !quit current iteration
+    end do
+end do

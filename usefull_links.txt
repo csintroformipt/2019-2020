@@ -1,0 +1,34 @@
+#VIM HowTo:
+  http://bullium.com/support/vim.html
+  https://help.ubuntu.com/community/VimHowto
+  https://www.linux.com/learn/tutorials/228600-vim-101-a-beginners-guide-to-vim
+  You may look further for how-to using GOOGLE at https://www.google.ru/search?q=vim+howto&ie=utf-8&oe=utf-8&gws_rd=cr&ei=imftVZSACoqwa-eHvrgB
+  
+  or just try typing vimtutor into the console
+
+#gfortran versions and changelog "What's new in gfortran?"
+  http://fortranwiki.org/fortran/show/Standards
+  https://gcc.gnu.org/wiki/GFortranStandards 
+
+#pretty compact FORTRAN course
+https://www.tutorialspoint.com/fortran/index.htm
+  
+# fortran profound course 
+ http://pages.mtu.edu/~shene/COURSES/cs201/NOTES/fortran.html
+
+#remote.vdi.mipt.ru manual
+http://studydoc.ru/doc/4065300/iz-korobki-dostup-k-kontejneram-predostavlyaetsya-po-rdp-i-ssh
+#in order to transfer files to/from your container you may use any alternative (instead WinSCP) SFTP client (for example Filezilla) to connect to it using ssh port
+
+
+ #"HOW DO I SETUP GEANY AND GFORTRAN FOR WINDOWS"
+ setup geany:https://www.geany.org/Support/BuildingOnWin32
+ setup minwg (posix-compatible environement with gcc. gfortran and other unix-originated tools): http://www.mingw.org/wiki/Getting_Started
+
+ alternatively you may consider installing Codeblocks:http://www.codeblocks.org/
+ or the visual stuio (community edition) + Intel Composer or PGI COmpiler (community edition) - the most automatized but bulky way
+
+ #git HOWTO
+ http://acm.mipt.ru/twiki/bin/view/Cintro/GitBegginner
+ https://git-scm.com/documentation
+ 

@@ -11,24 +11,49 @@
   https://gcc.gnu.org/wiki/GFortranStandards 
 
 #pretty compact FORTRAN course
-https://www.tutorialspoint.com/fortran/index.htm
-  
-# fortran profound course 
- http://pages.mtu.edu/~shene/COURSES/cs201/NOTES/fortran.html
+	https://www.tutorialspoint.com/fortran/index.htm
+	
+#fortran tutorial:
+	https://www.tutorialspoint.com/fortran/fortran_basic_syntax
+
+#fortran profound course 
+	http://pages.mtu.edu/~shene/COURSES/cs201/NOTES/fortran.html
 
 #remote.vdi.mipt.ru manual
-http://studydoc.ru/doc/4065300/iz-korobki-dostup-k-kontejneram-predostavlyaetsya-po-rdp-i-ssh
-#in order to transfer files to/from your container you may use any alternative (instead WinSCP) SFTP client (for example Filezilla) to connect to it using ssh port
+	http://studydoc.ru/doc/4065300/iz-korobki-dostup-k-kontejneram-predostavlyaetsya-po-rdp-i-ssh
+	#in order to transfer files to/from your container you may use any alternative (instead WinSCP) SFTP client (for example Filezilla) to connect to it using ssh port
 
 
  #"HOW DO I SETUP GEANY AND GFORTRAN FOR WINDOWS"
- setup geany:https://www.geany.org/Support/BuildingOnWin32
- setup minwg (posix-compatible environement with gcc. gfortran and other unix-originated tools): http://www.mingw.org/wiki/Getting_Started
+	 setup geany:https://www.geany.org/Support/BuildingOnWin32
+	 setup minwg (posix-compatible environement with gcc. gfortran and other unix-originated tools): http://www.mingw.org/wiki/Getting_Started
 
- alternatively you may consider installing Codeblocks:http://www.codeblocks.org/
- or the visual stuio (community edition) + Intel Composer or PGI COmpiler (community edition) - the most automatized but bulky way
+	 alternatively you may consider installing Codeblocks:http://www.codeblocks.org/
+	 or the visual stuio (community edition) + Intel Composer or PGI COmpiler (community edition) - the most automatized but bulky way
 
  #git HOWTO
- http://acm.mipt.ru/twiki/bin/view/Cintro/GitBegginner
- https://git-scm.com/documentation
+ 	https://git-scm.com/documentation
+ 	http://acm.mipt.ru/twiki/bin/view/Cintro/GitBegginner
  
+
+#how to remove ^M symbols (occures while copying windows text documents to linux):
+ 	https://support.microfocus.com/kb/doc.php?id=7014821
+
+#profound bash history tools:
+ 	https://www.digitalocean.com/community/tutorials/how-to-use-bash-history-commands-and-expansions-on-a-linux-vps
+
+#gcc comand line attributes (please see documentation for your version of compiler: see gcc --verison):
+ 	https://gcc.gnu.org/onlinedocs/gcc/Invoking-GCC.html#Invoking-GCC
+
+ 	http://staff.washington.edu/rjl/uwamath583s11/sphinx/notes/html/gfortran_flags.html
+
+#link on gfortran intrinsics list : 
+	https://gcc.gnu.org/onlinedocs/gfortran/Intrinsic-Procedures.html
+ 	ifortran: 
+ 		https://software.intel.com/en-us/fortran-compiler-developer-guide-and-reference-language-reference
+ 		https://software.intel.com/en-us/fortran-compiler-developer-guide-and-reference-traceback-1
+
+
+#gdb tutorial (naive):
+	https://www.tutorialspoint.com/gnu_debugger/index.htm
+	http://www.gdbtutorial.com/tutorial/how-use-gdb

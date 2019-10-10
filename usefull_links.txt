@@ -53,7 +53,20 @@
  		https://software.intel.com/en-us/fortran-compiler-developer-guide-and-reference-language-reference
  		https://software.intel.com/en-us/fortran-compiler-developer-guide-and-reference-traceback-1
 
-
 #gdb tutorial (naive):
 	https://www.tutorialspoint.com/gnu_debugger/index.htm
 	http://www.gdbtutorial.com/tutorial/how-use-gdb
+
+#X11-port-forwarding howto (for windows) :
+	THIS IS A REPLACEMENT FOR RDP connection
+		USE THIS MANUAL (optional steps are OPTIONAL!!!!)
+		http://laptops.eng.uci.edu/software-installation/using-linux/how-to-configure-xming-putty
+
+	on *NIX//MAC machines just do 
+		ssh -X -p PORTNUMBER USER@HOSTNAME PROGRAMFILE
+		with PORTNUMBER = port to connect to HOSTNAME
+		HOSTNAME = name of the container server (chromium, geany, qpdfview, xterm, etc.)
+		USER = your user name
+		PROGFILENAME is a program you want to launch
+		"-X" flag is a MUST HAVE to use X11
+		example: "ssh -X -p 12345 user41@remote.mipt.ru chromium" - to connect to remote.mipt.ru server on port 12345 as user41  and launch chromium there

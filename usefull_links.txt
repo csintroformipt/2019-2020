@@ -72,3 +72,7 @@
 		example: "ssh -X -p 12345 user41@remote.mipt.ru chromium" - to connect to remote.mipt.ru server on port 12345 as user41  and launch chromium there
 	
 	on MAC machines you have to install XQuartz (https://www.xquartz.org/) an launch it to enable X server. Than use same commands as in *NIX case
+
+#working with libraries Linux HOWTO:
+	http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+	https://bogotobogo.com/cplusplus/libraries.php

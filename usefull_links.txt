@@ -76,3 +76,6 @@
 #working with libraries Linux HOWTO:
 	http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
 	https://bogotobogo.com/cplusplus/libraries.php
+
+# translit mustdie:
+	https://habr.com/ru/post/485912/
